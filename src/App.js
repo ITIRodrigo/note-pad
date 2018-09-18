@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Link, Switch,BrowserHistory} from 'react-router-dom';
 import Home from './Initial/Home.js';
 import Login from './Initial/Login.js';
 import Signup from './Initial/Signup.js';
@@ -11,9 +11,7 @@ import ACrear from './Auth/ACrear.js'
 import AEditar from './Auth/AEditar.js'
 
 
-if (localStorage.getItem("email")) {  
- console.log("Hola Mundo",localStorage.getItem("email"));
-}
+
 const Header = () =>{
   return (
     <nav aria-label="breadcrumb">
