@@ -40,7 +40,7 @@ const Login = (props)=> {
 				
 			</div>
 			<div className="col-md-6">
-				<div className="panel panel-info">
+				<div className="panel panel-primary">
 					<div className="panel-heading"><h2 align="center">Login</h2></div>
 					<div className="panel-body">
 						{props.prop.mensaje}

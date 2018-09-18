@@ -1,0 +1,11 @@
+commit 9d1bb67f7909a4ee8adc016b6a34c3fe2d8edb5b
+Author: ITI Rodrigo <iti.bernal@gmail.com>
+Date:   Tue Sep 18 10:20:55 2018 -0500
+
+    se modifico el app.js
+
+commit bbc0c3a9b4d3db65fec3e6004dad437bb6819324
+Author: ITI Rodrigo <iti.bernal@gmail.com>
+Date:   Tue Sep 18 10:17:28 2018 -0500
+
+    se agrego todo el proyecto de note-pad

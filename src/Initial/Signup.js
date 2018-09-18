@@ -30,7 +30,7 @@ const Signup = (props)=> {
 				
 			</div>
 			<div className="col-md-6">
-				<div className="panel panel-info">
+				<div className="panel panel-primary">
 					<div className="panel-heading"><h2 align="center">Sign Up</h2></div>
 					<div className="panel-body">
 						{props.mensaje.mensaje}
