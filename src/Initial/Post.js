@@ -27,11 +27,11 @@ class Post extends Component{
 	render(){
 		return(
 			<div className="container">
-				<div className="panel panel-success">
+				<div className="panel panel-info">
 					<div className="panel-heading"><h2 align="center">{this.props.post.title}</h2></div>
 					<div className="panel-body">
 						<h4>{this.props.mensaje}</h4>
-						<h2>{this.props.error}</h2>
+						<h4>{this.props.error}</h4>
 						<h4>{this.props.post.body}</h4>
 					</div>
 				</div>
