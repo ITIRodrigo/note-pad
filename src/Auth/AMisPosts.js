@@ -41,8 +41,8 @@ var misPosts;
 			<div className="jumbotron">
 				<h2 align="center">Trabajo feo :v</h2>
 			</div>
-			<h2>Lista de Postmodernismos</h2>
-			<Link to={`/${this.props.login.id}/crear`}><button className="btn btn-primary">Crear Nuevo Post</button></Link><br/><br/>
+			<h2>Lista de Posts</h2>
+			<Link to={`/${this.props.login.id}/crear`}><button className="btn btn-success">Crear Nuevo Post</button></Link><br/><br/>
 			{this.posts()}
 			{this.props.error}
 		</div>
