@@ -32,9 +32,9 @@ const ACrear = (props)=>{
 	return(
 		<div className="container">
 			<div className="jumbotron">
-				<h2 align="center">NEW POST</h2>
+				<h2 align="center">Nuevo Post</h2>
 			</div>
-			<div className="col-md-6">
+			<div className="col-md-3">
 
 			</div>
 			<div className="col-md-6">
