@@ -18,7 +18,7 @@ componentWillUnmount(){
 
 posts = () =>{
 var misPosts;
-	if (this.props.posts.length !==0) 
+	if (this.props.posts.length !==0)
 	{
 		misPosts = this.props.posts.map((p)=>{
 			return(
@@ -27,7 +27,7 @@ var misPosts;
 					<Link to={`/${p.user_id}/post/${p.id}`} key={p.id}><li className="list-group-item">{p.title}</li></Link>
 				</ul>
 				</div>
-				
+
 			)
 		})
 	} else {
@@ -39,9 +39,9 @@ var misPosts;
 		return(
 		<div className="container">
 			<div className="jumbotron">
-				<h2 align="center">Mis Posts</h2>
+				<h2 align="center">Trabajo feo :v</h2>
 			</div>
-			<h2>Lista de Posts</h2>
+			<h2>Lista de Postmodernismos</h2>
 			<Link to={`/${this.props.login.id}/crear`}><button className="btn btn-primary">Crear Nuevo Post</button></Link><br/><br/>
 			{this.posts()}
 			{this.props.error}
@@ -63,15 +63,15 @@ const mapDispatchToProps = (dispatch) =>{
 		getPosts:(user_id,token)=>{
 			let config = {'Authorization': 'Bearer' + token};
 			axios.get(`https://blog-api-u.herokuapp.com/users/${user_id}/posts`,
-			{ 
+			{
 				headers: config
 			})
-			.then(function(response) 
+			.then(function(response)
 			{
 				console.log(response);
 				dispatch({type: 'PERSONAL_POSTS', data: response.data.posts});
 			})
-			.catch(function(error) 
+			.catch(function(error)
 			{
 				console.log(error);
 				dispatch({ type: 'ERROR_PERSONAL'});
