@@ -32,19 +32,19 @@ const ACrear = (props)=>{
 	return(
 		<div className="container">
 			<div className="jumbotron">
-				<h2 align="center">Nuevo Post</h2>
+				<h2 align="center">NEW POST</h2>
 			</div>
-			<div className="col-md-3">
-				
+			<div className="col-md-6">
+
 			</div>
 			<div className="col-md-6">
 				<div className="panel panel-info">
 					<div className="panel-heading">
-					
+
 						<h4>{props.mensaje}</h4>
 						<AFormPost onSubmit={manejoDeForma}/>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
