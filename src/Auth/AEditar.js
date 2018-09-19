@@ -17,10 +17,10 @@ class AEditar extends Component{
 			<div>
 				<div className="container">
 					<div className="jumbotron">
-						<h2 align="center">Editar Post</h2>
+						<h2 align="center">EDIT POST</h2>
 					</div>
-					<div className="col-md-3">
-						
+					<div className="col-md-6">
+
 					</div>
 					<div className="col-md-6">
 						<div className="panel panel-info">
@@ -28,7 +28,7 @@ class AEditar extends Component{
 								<p>{this.props.mensaje}</p>
 								<AEditarF onSubmit={this.manejoDatos}/>
 							</div>
-							
+
 						</div>
 					</div>
 				</div>
@@ -57,7 +57,7 @@ const mapDispatchToProps = (dispatch) =>{
 			post:{
 					title: data.title,
 					body: data.body
-				}	
+				}
 			},
 			{
 				headers: config
