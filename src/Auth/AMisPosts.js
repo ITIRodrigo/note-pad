@@ -39,7 +39,7 @@ var misPosts;
 		return(
 		<div className="container">
 			<div className="jumbotron">
-				<h2 align="center">Trabajo feo :v</h2>
+				<h2 align="center">Todos los Posts</h2>
 			</div>
 			<h2>Lista de Posts</h2>
 			<Link to={`/${this.props.login.id}/crear`}><button className="btn btn-success">Crear Nuevo Post</button></Link><br/><br/>
